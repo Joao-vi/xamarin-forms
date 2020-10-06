@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4QifKPNL2+6YZPlS+q935Mk09zFqZ/2YTJ8B2iUVg+vvGjAOcVDmVmWj6jhzxuE+4lWVp2rsaDyC2qYeLu4r0w==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Nubank-recreating\\Nubank-recreating\\Nubank-recreating.iOS\\Nubank-recreating.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joao\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\joao\\.nuget\\packages\\xamarin.essentials\\1.6.0-pre2\\xamarin.essentials.1.6.0-pre2.nupkg.sha512",
+    "C:\\Users\\joao\\.nuget\\packages\\xamarin.forms\\5.0.0.1487-pre1\\xamarin.forms.5.0.0.1487-pre1.nupkg.sha512"
+  ],
+  "logs": []
+}
