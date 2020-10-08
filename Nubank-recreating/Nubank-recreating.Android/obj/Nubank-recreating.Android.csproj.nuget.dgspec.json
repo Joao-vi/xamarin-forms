@@ -42,6 +42,18 @@
       "frameworks": {
         "monoandroid10.0": {
           "dependencies": {
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Prism.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.0-pre2, )"
@@ -97,6 +109,18 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Prism.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

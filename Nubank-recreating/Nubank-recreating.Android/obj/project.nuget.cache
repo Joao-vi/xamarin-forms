@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "b1kw0B38WLLGH2kysdtKtlGuNtpf93OiDPPIxtBVffTjspUJpR9XgGaQyEFXQP3hOQfynbxT7mhd8FDc4lEGDA==",
+  "dgSpecHash": "83T2YrNOhET0mMr0AhnWfyWoBwAdNByXSdxkwbDw+RCIMWosKUmF1aO92kF9l2NrVFork0OBQe3oKgI7gzs9Jw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Nubank-recreating\\Nubank-recreating\\Nubank-recreating.Android\\Nubank-recreating.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\joao\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\joao\\.nuget\\packages\\prism.forms\\7.2.0.1422\\prism.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\joao\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\joao\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\joao\\.nuget\\packages\\xamarin.androidx.activity\\1.0.0.1\\xamarin.androidx.activity.1.0.0.1.nupkg.sha512",
     "C:\\Users\\joao\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.1\\xamarin.androidx.annotation.1.1.0.1.nupkg.sha512",

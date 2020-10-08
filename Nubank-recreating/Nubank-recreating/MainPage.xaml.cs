@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nubank_recreating.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Nubank_recreating
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
         }
 
         private void Button_Clicked(object sender, EventArgs e)

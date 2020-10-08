@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"Nubank-recreating.Android.dll",
 		"FormsViewGroup.dll",
 		"Nubank-recreating.dll",
+		"Prism.dll",
+		"Prism.Forms.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",

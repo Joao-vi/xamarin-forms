@@ -7,15 +7,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#8B10AE">
-            <Grid Margin="0,25,0,0">
-
-                <StackLayout>
+        <StackLayout BackgroundColor="#8A05BE">
+            <Grid BackgroundColor="Transparent">
+                <StackLayout Margin="0,25,0,0">
                     <FlexLayout
                         AlignItems="Center"
                         BackgroundColor="Transparent"
                         JustifyContent="Center">
-                        <Image Source="Nubank_Logo2x" WidthRequest="50"/>
+                        <Image Source="Nubank_Logo2x" WidthRequest="50" />
                         <Label
                             Margin="10,0,0,0"
                             FontAttributes="Bold"
@@ -31,6 +30,92 @@
                     HeightRequest="75"
                     TextColor="#FFF" />
             </Grid>
+            <ScrollView VerticalOptions="FillAndExpand">
+                <FlexLayout
+                    Margin="15,0"
+                    BackgroundColor="Transparent"
+                    Direction="Column"
+                    VerticalOptions="FillAndExpand">
+                    <StackLayout
+                        Margin="0,0,0,10"
+                        Padding="15"
+                        BackgroundColor="White">
+                        <FlexLayout AlignItems="Center">
+                            <Image Source="outline_payment_black_24" />
+                            <Label Margin="10,0,0,0" Text="Cartão de Crédito" />
+                        </FlexLayout>
+                        <Label Text="Fatura atual" />
+                        <Label Text="R$ 900,51" />
+                        <Label Text="Limite disponível R$3099,49" />
+
+                    </StackLayout>
+                    <StackLayout
+                        Margin="0,0,0,10"
+                        Padding="15"
+                        BackgroundColor="White">
+                        <FlexLayout AlignItems="Center">
+                            <Image Source="outline_monetization_on_black_24" />
+                            <Label Margin="10,0,0,0" Text="Conta" />
+                        </FlexLayout>
+                        <Label Text="Saldo disponível" />
+                        <Label Text="R$ 358,16" />
+
+
+                    </StackLayout>
+                    <StackLayout
+                        Margin="0,0,0,10"
+                        Padding="15"
+                        BackgroundColor="White">
+                        <FlexLayout AlignItems="Center">
+                            <Image Source="outline_business_center_24" />
+                            <Label Margin="10,0,0,0" Text="Rewards" />
+                        </FlexLayout>
+                        <Label Text="Apague compras com pontos que nunca expiram" />
+                        <Button
+                            BackgroundColor="Transparent"
+                            BorderColor="#8A05BE"
+                            BorderWidth="1"
+                            CornerRadius="10"
+                            Text="Conhecer" />
+
+                    </StackLayout>
+                </FlexLayout>
+            </ScrollView>
+            <CollectionView
+                Margin="15,10"
+                HeightRequest="120"
+                HorizontalScrollBarVisibility="Never"
+                ItemsSource="{Binding Menu}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Frame
+                            Padding="10"
+                            BackgroundColor="#9824C7"
+                            CornerRadius="5"
+                            HasShadow="False"
+                            HeightRequest="120"
+                            WidthRequest="100">
+                            <StackLayout>
+                                <Image
+                                    HorizontalOptions="Start"
+                                    Source="{Binding icon}"
+                                    VerticalOptions="Start" />
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="Medium"
+                                    Text="{Binding name}"
+                                    TextColor="White"
+                                    VerticalOptions="EndAndExpand" />
+                            </StackLayout>
+                        </Frame>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

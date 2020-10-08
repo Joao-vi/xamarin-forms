@@ -4743,8 +4743,18 @@ public final class R {
     public static final int nubank_logo=0x7f07007f;
     public static final int nubank_logo2x=0x7f070080;
     public static final int nubank_logo3x=0x7f070081;
-    public static final int tooltip_frame_dark=0x7f070082;
-    public static final int tooltip_frame_light=0x7f070083;
+    public static final int outline_business_center_24=0x7f070082;
+    public static final int outline_chat_bubble_outline_24=0x7f070083;
+    public static final int outline_help_outline_24=0x7f070084;
+    public static final int outline_lock_24=0x7f070085;
+    public static final int outline_monetization_on_24=0x7f070086;
+    public static final int outline_monetization_on_black_24=0x7f070087;
+    public static final int outline_payment_24=0x7f070088;
+    public static final int outline_payment_black_24=0x7f070089;
+    public static final int outline_person_add_alt_1_24=0x7f07008a;
+    public static final int outline_smartphone_24=0x7f07008b;
+    public static final int tooltip_frame_dark=0x7f07008c;
+    public static final int tooltip_frame_light=0x7f07008d;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -5113,6 +5123,38 @@ public final class R {
     public static final int icon_round=0x7f0c0005;
     public static final int launcher_foreground=0x7f0c0006;
     public static final int nubank_logo=0x7f0c0007;
+    public static final int outline_business_center_black_18=0x7f0c0008;
+    public static final int outline_business_center_black_24=0x7f0c0009;
+    public static final int outline_business_center_black_36=0x7f0c000a;
+    public static final int outline_business_center_black_48=0x7f0c000b;
+    public static final int outline_chat_bubble_outline_white_18=0x7f0c000c;
+    public static final int outline_chat_bubble_outline_white_24=0x7f0c000d;
+    public static final int outline_chat_bubble_outline_white_36=0x7f0c000e;
+    public static final int outline_chat_bubble_outline_white_48=0x7f0c000f;
+    public static final int outline_help_outline_white_18=0x7f0c0010;
+    public static final int outline_help_outline_white_24=0x7f0c0011;
+    public static final int outline_help_outline_white_36=0x7f0c0012;
+    public static final int outline_help_outline_white_48=0x7f0c0013;
+    public static final int outline_lock_white_18=0x7f0c0014;
+    public static final int outline_lock_white_24=0x7f0c0015;
+    public static final int outline_lock_white_36=0x7f0c0016;
+    public static final int outline_lock_white_48=0x7f0c0017;
+    public static final int outline_monetization_on_white_18=0x7f0c0018;
+    public static final int outline_monetization_on_white_24=0x7f0c0019;
+    public static final int outline_monetization_on_white_36=0x7f0c001a;
+    public static final int outline_monetization_on_white_48=0x7f0c001b;
+    public static final int outline_payment_white_18=0x7f0c001c;
+    public static final int outline_payment_white_24=0x7f0c001d;
+    public static final int outline_payment_white_36=0x7f0c001e;
+    public static final int outline_payment_white_48=0x7f0c001f;
+    public static final int outline_person_add_alt_1_white_18=0x7f0c0020;
+    public static final int outline_person_add_alt_1_white_24=0x7f0c0021;
+    public static final int outline_person_add_alt_1_white_36=0x7f0c0022;
+    public static final int outline_person_add_alt_1_white_48=0x7f0c0023;
+    public static final int outline_smartphone_white_18=0x7f0c0024;
+    public static final int outline_smartphone_white_24=0x7f0c0025;
+    public static final int outline_smartphone_white_36=0x7f0c0026;
+    public static final int outline_smartphone_white_48=0x7f0c0027;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0d0000;
